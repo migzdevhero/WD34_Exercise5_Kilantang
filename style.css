@@ -1,0 +1,101 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+body {
+  background: url("zoombg.jpg") no-repeat center;
+  background-size: cover;
+  font-family: 'Lobster', cursive;  
+ 
+  }
+div {
+  background: rgb(255, 63, 108, .25);
+  color: black;
+  box-shadow: 10px 10px 5px 10px rgba(0, 0, 0, 0.404);
+  font-size: 25px;
+  font-weight: bold;
+  font-style: italic;
+  text-transform: uppercase;
+  text-decoration: line-through;
+  text-align: left;
+  text-shadow: 1rem;
+  letter-spacing: 1rem;
+  
+  
+}
+.greenBackground {
+  background: #05c435ff;
+  color: yellow;
+}
+#sample-id {
+ color: black;
+}
+.solid {
+  background: red;
+  margin: 10px 20px 30px 40px;
+  padding: 40px 30px 20px 10px;
+  border: 10px solid tomato;
+}
+.dotted {
+  background: blue;
+  margin: 10px 20px 30px 40px;
+  padding: 40px 30px 20px 10px;
+  border: 10px dotted tomato;
+}
+.double {
+  background: yellow;
+  margin: 10px 20px 30px 40px;
+  padding: 40px 30px 20px 10px;
+  border: 10px double tomato;
+}
+.groove {
+  background: pink;
+  margin: 10px 20px 30px 40px;
+  padding: 40px 30px 20px 10px;
+  border: 10px double tomato;
+}
+.ridge {
+  background: aqua;
+  margin: 10px 20px 30px 40px;
+  padding: 40px 30px 20px 10px;
+  border: 10px ridge tomato;
+}
+.inset {
+  background: bisque;
+  margin: 10px 20px 30px 40px;
+  padding: 40px 30px 20px 10px;
+  border: 10px inset tomato;
+}
+.outset {
+  background: chartreuse;
+  margin: 10px 20px 30px 40px;
+  padding: 40px 30px 20px 10px;
+  border: 10px outset tomato;
+}
+.dashed {
+  background: firebrick;
+  margin: 10px 20px 30px 40px;
+  padding: 40px 30px 20px 10px;
+  border: 10px dashed tomato;
+}
+.radius {
+  background: darkorchid;
+  margin: 10px 20px 30px 40px;
+  padding: 40px 30px 20px 10px;
+  border-radius: 10px solid tomato;
+}
+.overflow1 { 
+  width: 400px;
+  height: 600px;
+  overflow: scroll;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: small;
+  font-style: normal;
+  text-decoration: none;
+  text-align: left;
+  text-indent: 1rem;
+  text-transform: none;
+  word-spacing: 1rem;
+
+
+}
+
